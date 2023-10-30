@@ -1,4 +1,4 @@
-import { Box, Tab, Tabs } from '@mui/material';
+import { Box, Tab, Tabs, Typography } from '@mui/material';
 import React, { useState } from 'react';
 
 const CrewList = () => {
@@ -8,12 +8,16 @@ const CrewList = () => {
 		setCurrentTab(newTab);
 	};
 	return (
-		<Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+		<Box>
 			<Tabs value={currentTab} onChange={tabHandleChange} aria-label="basic tabs example">
 				<Tab label="Pilot" />
 				<Tab label="Tug" />
 				<Tab label="Pilot Boat / Logistics" />
 			</Tabs>
+			<div>
+				<Typography variant='subtitle1' >List of Pilot</Typography>
+
+			</div>
 		</Box>
 	);
 };

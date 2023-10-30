@@ -1,6 +1,7 @@
 import { Grid, Tab } from '@mui/material';
 import Calendar from './components/Calendar';
 import CrewList from './CrewList';
+import FakeData from './NonAvailibility.json';
 
 const NonAvailability = () => {
 	return (
@@ -11,7 +12,7 @@ const NonAvailability = () => {
 					<CrewList />
 				</Grid>
 				<Grid item xs={8}>
-					<Calendar />
+					<Calendar NonAvailability={FakeData} />
 				</Grid>
 			</Grid>
 		</>

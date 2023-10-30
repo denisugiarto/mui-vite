@@ -24,31 +24,46 @@
 .calendar-grid {
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
-	gap: 5px;
 	margin-top: 10px;
 }
 
+.calendar-grid:nth-child(1) {
+	border-left: 1px solid red;
+}
 .calendar-day {
 	display: flex;
-	justify-content: center;
-	/* width: 40px; */
-	height: 100px;
-	background-color: #f2f2f2;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
 	cursor: pointer;
-	border: 1px solid #ccc;
-	padding: 20px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	min-height: 100px;
 }
-.calendar-day:hover {
-	background-color: #04558b;
+
+
+.calendar-day > p {
+	border-radius: 50%;
+	font-size: 12px;
+	font-weight: 500;
+	width: max-content;
+	min-width: 24px;
+	text-align: center;
+	line-height: 24px;
 }
-.calendar-day.today {
+.calendar-day.today > p {
 	background-color: #007acc;
 	color: white;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
 }
 .day-name {
 	background-color: #007acc;
 	color: white;
 	padding: 0.5rem 1rem;
+	text-align: center;
 }
 
 .non-availability-form {
@@ -63,4 +78,24 @@
 .non-availability-form h3 {
 	font-size: 18px;
 	margin: 0;
+}
+
+.non-availibity {
+	background-color: red;
+	width: calc(100% - 10px);
+	text-align: center;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 10;
+	color: white;
+}
+.non-availibity:hover {
+	filter: brightness(0.8);
+	-webkit-filter: brightness(0.8);
 }

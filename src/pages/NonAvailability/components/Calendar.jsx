@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './Calendar.css';
 import { ChevronLeft, ChevronRight } from '@mui/icons-material';
 import FormNonAvailability from './FormNonAvailability';
-const Calendar = () => {
+
+const Calendar = ({ NonAvailability }) => {
 	const [date, setDate] = useState(new Date());
 	const [isDialogOpen, setIsDialogOpen] = useState(false);
 	const [selectedDate, setSelectedDate] = useState(null);
@@ -28,14 +29,12 @@ const Calendar = () => {
 	};
 
 	const firstDayOfMonth = new Date(date.getFullYear(), date.getMonth(), 1).getDay();
-	console.log('🚀 ~ file: Calendar.jsx:31 ~ Calendar ~ firstDayOfMonth:', firstDayOfMonth);
-
 	const daysInMonth = getDaysInMonth(date.getFullYear(), date.getMonth());
 	const today = new Date();
-	console.log('🚀 ~ file: Calendar.jsx:35 ~ Calendar ~ today:', today);
 	const currentDate = new Date(date.getFullYear(), date.getMonth());
-	console.log('🚀 ~ file: Calendar.jsx:37 ~ Calendar ~ currentDate:', currentDate);
-	const isToday = currentDate.toDateString() === today.toDateString();
+	const isToday = (day) => {
+		return day + 1 === today.getDate() && date.getMonth() === today.getMonth();
+	};
 	const addNonAvailability = (formValue) => {
 		// Implement your logic to handle non-availability here
 		console.log('Added non-availability for', formValue);
@@ -65,9 +64,18 @@ const Calendar = () => {
 				{[...Array(firstDayOfMonth).keys()].map((i) => (
 					<div key={i} className="empty-day"></div>
 				))}
-				{[...Array(daysInMonth).keys()].map((day) => (
-					<div key={day} className={`calendar-day ${isToday ? 'today' : ''}`} onClick={openDialog}>
-						{day + 1}
+				{[...Array(daysInMonth).keys()].map((day, index) => (
+					<div key={day} className={`calendar-day ${isToday(day) ? 'today' : ''}`} onClick={openDialog}>
+						<p>{day + 1}</p>
+						{( index === 4) && (
+							<div className="non-availibity" style={{ width: '200%' }} onClick={(e) => {
+								e.stopPropagation()
+								alert('tes')
+							} 
+						}>
+								tes
+							</div>
+						)}
 					</div>
 				))}
 			</div>
