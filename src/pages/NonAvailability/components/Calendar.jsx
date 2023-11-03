@@ -103,7 +103,7 @@ const Calendar = ({ NonAvailability }) => {
 					<ChevronRight />
 				</button>
 			</div>
-			<p>Start Time: {startDatesNonAvailabilitys}</p>
+			<p>Start Time: {startDatesNonAvailability}</p>
 			<p>startDayDate: {startDayDate ?? 'empty'}</p>
 			<p>End Time: {endDatesNonAvailability}</p>
 			<p>endDayDate: {endDayDate ?? 'empty'}</p>
