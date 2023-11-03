@@ -1,12 +1,31 @@
-{
-	"NonAvailibity": [
-		{
-			"name": "Deni",
-			"reason": "family",
-			"dates": {
-				"startTime": "2023-10-1",
-				"endTime": "2023-10-3"
-			}
+[
+	{
+		"name": "Deni",
+		"reason": "family",
+		"dates": {
+			"startDateTime": "2023-11-5 16:00",
+			"endDateTime": "2023-11-30 16:00"
 		}
-	]
-}
+	},
+	{
+		"name": "Frans",
+		"nonAvailability": [
+			{
+				"id": 1,
+				"reason": "family",
+				"dates": {
+					"startDateTime": "2023-11-1",
+					"endDateTime": "2023-11-4"
+				}
+			},
+			{
+				"id": 2,
+				"reason": "engine maintenance",
+				"dates": {
+					"startDateTime": "2023-11-18",
+					"endDateTime": "2023-11-19"
+				}
+			}
+		]
+	}
+]

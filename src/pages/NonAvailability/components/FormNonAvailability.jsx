@@ -1,16 +1,18 @@
-import { Box, Button, Checkbox, Container, Dialog, DialogContent, DialogTitle, TextField } from '@mui/material';
+import { Box, Button, Checkbox, Container, Dialog, DialogContent, DialogTitle, FormControlLabel, TextField } from '@mui/material';
 import { DatePicker, TimePicker } from '@mui/x-date-pickers';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 const FormNonAvailability = (props) => {
 	const { isDialogOpen, closeDialog, formSubmitHandler } = props;
+	const [showTime, setShowTime] = useState(false);
 	const formValue = useRef();
+	const [isWholeDay, setIsWholeDay] = useState(false);
 	return (
-		<Dialog open={isDialogOpen} onClose={closeDialog} maxWidth={'lg'}>
+		<Dialog open={isDialogOpen} onClose={closeDialog} maxWidth={'sm'} fullWidth>
 			<DialogTitle>Create Non-Availability Record</DialogTitle>
 			<DialogContent>
 				<form>
-					<Box display="flex" flexDirection={'column'} gap={1} pt={1}>
+					<Box display="flex" flexDirection={'column'} gap={2} pt={1}>
 						<TextField
 							label="Name"
 							fullWidth
@@ -18,16 +20,33 @@ const FormNonAvailability = (props) => {
 							// Add your form input fields here
 							onChange={(event) => (formValue.current = event.target.value)}
 						/>
-						<DatePicker />
-						<DatePicker />
-						<TimePicker ampm={false} />
-						<TimePicker ampm={false} />
-						<Button variant="outlined">Add Time</Button>
+						<DatePicker label="Start Date" />
+						<DatePicker label="End Date" />
+						{showTime && !isWholeDay && (
+							<>
+								<TimePicker ampm={false} label="Start Time" />
+								<TimePicker ampm={false} label="End Time" />
+							</>
+						)}
+						{!showTime && (
+							<Button variant="outlined" onClick={() => setShowTime(true)}>
+								Add Time
+							</Button>
+						)}
 						{/* whole Day */}
-						<label style={{ cursor: 'pointer' }}>
-							Whole Day
-							<Checkbox />
-						</label>
+						{showTime && (
+							<FormControlLabel
+								control={
+									<Checkbox
+										value={isWholeDay}
+										onChange={(event) => {
+											setIsWholeDay(event.target.checked);
+										}}
+									/>
+								}
+								label="All Day"
+							/>
+						)}
 						<TextField
 							label="Reason"
 							fullWidth
