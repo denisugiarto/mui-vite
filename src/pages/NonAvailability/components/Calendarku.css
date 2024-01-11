@@ -1,4 +1,15 @@
 /* styles.css (or your preferred CSS file) */
+* {
+	box-sizing: content-box;
+}
+.bar-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: 100%;
+	margin-bottom: 8px;
+	margin-left: 5px;
+}
 
 .calendar-header {
 	display: flex;
@@ -21,6 +32,7 @@
 	font-size: 22px;
 	line-height: 28px;
 	margin: 0;
+	color: white;
 }
 
 .calendar-grid {
@@ -40,7 +52,8 @@
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
+	gap: 8px;
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 	/* border-left: 1px solid transparent; */
@@ -50,10 +63,6 @@
 .calendar-day {
 	cursor: pointer;
 }
-.empty-day {
-	background-color: #fafafa;
-}
-
 .calendar-day > p {
 	border-radius: 50%;
 	font-size: 12px;
@@ -64,6 +73,7 @@
 	line-height: 24px;
 	margin: 4px 0;
 }
+
 .calendar-day.today > p {
 	background-color: #007acc;
 	color: white;
@@ -87,6 +97,10 @@
 	border-left: 1px solid #ccc;
 }
 
+.empty-day {
+	background-color: #fafafa;
+}
+
 .non-availability-form {
 	background-color: #fff;
 	border: 1px solid #ccc;
@@ -106,14 +120,24 @@
 	width: calc(100% - 10px);
 	text-align: center;
 	border-radius: 4px;
-	position: absolute;
-	top: 40px;
-	left: 5px;
+	position: relative;
+	inset: 0;
 	z-index: 10;
 	color: white;
 	padding: 4px 8px;
+	.reason {
+		margin: 0;
+	}
 }
+
 .non-availability:hover {
 	filter: brightness(0.9);
 	-webkit-filter: brightness(0.9);
+}
+
+.reason {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-height: 24px;
 }

@@ -1,0 +1,143 @@
+/*
+:root {
+  --primary-color: #28A8E3;
+}
+
+.calendar-day {
+  cursor: pointer;
+}
+
+.calendar-day:nth-child(7n-6) {
+  border-left: 1px solid #ccc;
+}
+
+.calendar-day,
+.empty-day {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  min-height: 100px;
+  min-width: 80px;
+}
+
+.calendar-day > p {
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  width: max-content;
+  min-width: 24px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 auto;
+}
+.calendar-day.today > p {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.calendar-month-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 10px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+}
+
+.calendar-header button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.calendar-header h2 {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+  color: white;
+}
+
+.day-name {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0.25rem 0;
+  margin-top: 8px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.day-name:first-child {
+  border-left: 1px solid #ccc;
+}
+.day-name > p {
+  margin-bottom: 0;
+  display: inline-block;
+}
+.day-name.today > p {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.empty-day {
+  background-color: #fafafa;
+}
+
+.empty-day:nth-child(7n-6) {
+  border-left: 1px solid #ccc;
+}
+
+.non-availability-form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.non-availability-form h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.non-availability {
+  background-color: #979ea8;
+  width: calc(100% - 10px);
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  z-index: 10;
+  color: white;
+  padding: 4px 8px;
+  .reason {
+    margin: 0;
+  }
+}
+
+.non-availability:hover {
+  filter: brightness(0.9);
+  -webkit-filter: brightness(0.9);
+}
+
+.reason {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-height: 24px;
+} */

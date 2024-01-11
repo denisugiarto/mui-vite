@@ -1,0 +1,764 @@
+[
+  {
+      "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+      "shiftName": "TEST SHIFT BUG",
+      "teamId": 32,
+      "teamName": "MOORING H TEAM",
+      "teamType": "MOORING_TEAM",
+      "personnelId": 6,
+      "personnelName": "SANTOS BUDI",
+      "personnelType": "CREW",
+      "blocks": [
+          {
+              "id": "1c483307-e2b7-4b4c-a025-ecec21dfcf52",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-07 07:30:00",
+              "endDateTime": "2023-12-07 14:30:00"
+          },
+          {
+              "id": "212c0c19-04f9-4082-98b8-9cc035ef226d",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-10 00:00:00",
+              "endDateTime": "2023-12-10 07:30:00"
+          },
+          {
+              "id": "3371cd02-8173-4591-ba0e-748252b0304f",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-05 07:30:00",
+              "endDateTime": "2023-12-05 14:30:00"
+          },
+          {
+              "id": "497590fe-16e4-4928-818d-b6865a479a20",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-14 07:30:00",
+              "endDateTime": "2023-12-14 14:30:00"
+          },
+          {
+              "id": "5297ab0c-fb61-478d-9ec2-8302629fb21e",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-09 00:00:00",
+              "endDateTime": "2023-12-09 07:30:00"
+          },
+          {
+              "id": "7e1e740c-f3bf-4bc6-b467-88514751a103",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-03 07:30:00",
+              "endDateTime": "2023-12-03 14:30:00"
+          },
+          {
+              "id": "876575dc-9aaa-474b-ae93-4a436b45486f",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-06 07:30:00",
+              "endDateTime": "2023-12-06 14:30:00"
+          },
+          {
+              "id": "8a75d45c-ce00-4360-baa0-d35c66dbf70f",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-18 07:30:00",
+              "endDateTime": "2023-12-18 14:30:00"
+          },
+          {
+              "id": "904fd7a3-35de-4817-ba93-d687c2de9e73",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-17 07:30:00",
+              "endDateTime": "2023-12-17 14:30:00"
+          },
+          {
+              "id": "94f868f4-f18d-415d-bcf8-9145182d07ab",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-15 07:30:00",
+              "endDateTime": "2023-12-15 14:30:00"
+          },
+          {
+              "id": "95a9f63a-2483-4f23-920c-63f8021da763",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-01 00:00:00",
+              "endDateTime": "2023-12-01 07:30:00"
+          },
+          {
+              "id": "a68e2e77-2d7d-4d1d-9360-db560b9367dc",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-12 00:00:00",
+              "endDateTime": "2023-12-12 07:30:00"
+          },
+          {
+              "id": "b2ecfa19-24b3-4198-9783-a0ccb1652f59",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-08 00:00:00",
+              "endDateTime": "2023-12-08 07:30:00"
+          },
+          {
+              "id": "b7027345-5fee-4dca-8b97-4f320f808d01",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-04 07:30:00",
+              "endDateTime": "2023-12-04 14:30:00"
+          },
+          {
+              "id": "cf0bd302-1bb4-4cd0-9f44-0caf0ba68680",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-19 07:30:00",
+              "endDateTime": "2023-12-19 14:30:00"
+          },
+          {
+              "id": "e00a253c-585f-44f0-8d7c-563a33988c54",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-13 00:00:00",
+              "endDateTime": "2023-12-13 07:30:00"
+          },
+          {
+              "id": "ec4a678d-264f-42ac-88ad-ddf0e4bbac05",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-11 00:00:00",
+              "endDateTime": "2023-12-11 07:30:00"
+          },
+          {
+              "id": "f0812789-639a-4ae5-ba62-c80092f662e9",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-02 07:30:00",
+              "endDateTime": "2023-12-02 14:30:00"
+          },
+          {
+              "id": "f11803da-9054-4cab-8a51-a11c51e00376",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-16 07:30:00",
+              "endDateTime": "2023-12-16 14:30:00"
+          }
+      ]
+  },
+  {
+      "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+      "shiftName": "TEST SHIFT BUG",
+      "teamId": 32,
+      "teamName": "MOORING H TEAM",
+      "teamType": "MOORING_TEAM",
+      "personnelId": 10,
+      "personnelName": "Louis James",
+      "personnelType": "CREW",
+      "blocks": [
+          {
+              "id": "1c483307-e2b7-4b4c-a025-ecec21dfcf52",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-07 07:30:00",
+              "endDateTime": "2023-12-07 14:30:00"
+          },
+          {
+              "id": "212c0c19-04f9-4082-98b8-9cc035ef226d",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-10 00:00:00",
+              "endDateTime": "2023-12-10 07:30:00"
+          },
+          {
+              "id": "3371cd02-8173-4591-ba0e-748252b0304f",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-05 07:30:00",
+              "endDateTime": "2023-12-05 14:30:00"
+          },
+          {
+              "id": "497590fe-16e4-4928-818d-b6865a479a20",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-14 07:30:00",
+              "endDateTime": "2023-12-14 14:30:00"
+          },
+          {
+              "id": "5297ab0c-fb61-478d-9ec2-8302629fb21e",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-09 00:00:00",
+              "endDateTime": "2023-12-09 07:30:00"
+          },
+          {
+              "id": "7e1e740c-f3bf-4bc6-b467-88514751a103",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-03 07:30:00",
+              "endDateTime": "2023-12-03 14:30:00"
+          },
+          {
+              "id": "876575dc-9aaa-474b-ae93-4a436b45486f",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-06 07:30:00",
+              "endDateTime": "2023-12-06 14:30:00"
+          },
+          {
+              "id": "8a75d45c-ce00-4360-baa0-d35c66dbf70f",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-18 07:30:00",
+              "endDateTime": "2023-12-18 14:30:00"
+          },
+          {
+              "id": "904fd7a3-35de-4817-ba93-d687c2de9e73",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-17 07:30:00",
+              "endDateTime": "2023-12-17 14:30:00"
+          },
+          {
+              "id": "94f868f4-f18d-415d-bcf8-9145182d07ab",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-15 07:30:00",
+              "endDateTime": "2023-12-15 14:30:00"
+          },
+          {
+              "id": "95a9f63a-2483-4f23-920c-63f8021da763",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-01 00:00:00",
+              "endDateTime": "2023-12-01 07:30:00"
+          },
+          {
+              "id": "a68e2e77-2d7d-4d1d-9360-db560b9367dc",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-12 00:00:00",
+              "endDateTime": "2023-12-12 07:30:00"
+          },
+          {
+              "id": "b2ecfa19-24b3-4198-9783-a0ccb1652f59",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-08 00:00:00",
+              "endDateTime": "2023-12-08 07:30:00"
+          },
+          {
+              "id": "b7027345-5fee-4dca-8b97-4f320f808d01",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-04 07:30:00",
+              "endDateTime": "2023-12-04 14:30:00"
+          },
+          {
+              "id": "cf0bd302-1bb4-4cd0-9f44-0caf0ba68680",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-19 07:30:00",
+              "endDateTime": "2023-12-19 14:30:00"
+          },
+          {
+              "id": "e00a253c-585f-44f0-8d7c-563a33988c54",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-13 00:00:00",
+              "endDateTime": "2023-12-13 07:30:00"
+          },
+          {
+              "id": "ec4a678d-264f-42ac-88ad-ddf0e4bbac05",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-11 00:00:00",
+              "endDateTime": "2023-12-11 07:30:00"
+          },
+          {
+              "id": "f0812789-639a-4ae5-ba62-c80092f662e9",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-02 07:30:00",
+              "endDateTime": "2023-12-02 14:30:00"
+          },
+          {
+              "id": "f11803da-9054-4cab-8a51-a11c51e00376",
+              "shiftId": "72d4219e-7084-49a3-8abc-cb5c106cb8cf",
+              "startDateTime": "2023-12-16 07:30:00",
+              "endDateTime": "2023-12-16 14:30:00"
+          }
+      ]
+  },
+  {
+      "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+      "shiftName": "MIDNIGHT SHIFT",
+      "teamId": 34,
+      "teamName": "RIGGER HU TEAM",
+      "teamType": "RIGGER_TEAM",
+      "personnelId": 2,
+      "personnelName": "STEVE ROGER",
+      "personnelType": "CREW",
+      "blocks": [
+          {
+              "id": "1914c42d-091a-4416-9f39-a6a271a83efc",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-27 00:00:00",
+              "endDateTime": "2023-12-27 07:30:00"
+          },
+          {
+              "id": "3b679534-4d7b-47ad-80d4-cbf11b60becf",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-21 07:30:00",
+              "endDateTime": "2023-12-21 19:00:00"
+          },
+          {
+              "id": "520d5ec2-abf8-48cb-af9e-e1f0cb782531",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-15 19:00:00",
+              "endDateTime": "2023-12-16 00:00:00"
+          },
+          {
+              "id": "63b172f7-e149-4927-8aa6-cf4031f8c1da",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-22 19:00:00",
+              "endDateTime": "2023-12-23 00:00:00"
+          },
+          {
+              "id": "68ec59e7-5318-40e0-bf71-b9b75260b1d1",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-28 07:30:00",
+              "endDateTime": "2023-12-28 19:00:00"
+          },
+          {
+              "id": "6e29e611-5d36-4963-9c29-5ab4482e3a2e",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-30 00:00:00",
+              "endDateTime": "2023-12-30 07:30:00"
+          },
+          {
+              "id": "7b9f752a-ce19-44a2-9d27-b4fd8618888a",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-13 00:00:00",
+              "endDateTime": "2023-12-13 07:30:00"
+          },
+          {
+              "id": "7d9165dd-88df-4dec-bebb-9f9fe4f78a62",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-29 19:00:00",
+              "endDateTime": "2023-12-30 00:00:00"
+          },
+          {
+              "id": "8c9c874e-ca8e-4ca2-9e8c-7233e01385b9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-14 07:30:00",
+              "endDateTime": "2023-12-14 19:00:00"
+          },
+          {
+              "id": "a2c3a290-e80a-4836-9618-5d46fd362008",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-12 19:00:00",
+              "endDateTime": "2023-12-13 00:00:00"
+          },
+          {
+              "id": "a7d89e2d-0acb-4d6d-ad6a-de7ebad4ef8b",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-20 00:00:00",
+              "endDateTime": "2023-12-20 07:30:00"
+          },
+          {
+              "id": "be4b5ddc-c18d-4b35-bf76-5e32489921a9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-19 19:00:00",
+              "endDateTime": "2023-12-20 00:00:00"
+          },
+          {
+              "id": "ca86a99b-8d22-4600-baed-1c1526b14591",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-16 00:00:00",
+              "endDateTime": "2023-12-16 07:30:00"
+          },
+          {
+              "id": "e2b2afdf-78f9-4439-afb5-860e3ba86712",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-23 00:00:00",
+              "endDateTime": "2023-12-23 07:30:00"
+          },
+          {
+              "id": "faea6aa3-7e35-4294-9dfc-4a0031d8f53d",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-26 19:00:00",
+              "endDateTime": "2023-12-27 00:00:00"
+          }
+      ]
+  },
+  {
+      "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+      "shiftName": "MIDNIGHT SHIFT",
+      "teamId": 34,
+      "teamName": "RIGGER HU TEAM",
+      "teamType": "RIGGER_TEAM",
+      "personnelId": 8,
+      "personnelName": "ZANURI RAM",
+      "personnelType": "CREW",
+      "blocks": [
+          {
+              "id": "1914c42d-091a-4416-9f39-a6a271a83efc",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-27 00:00:00",
+              "endDateTime": "2023-12-27 07:30:00"
+          },
+          {
+              "id": "3b679534-4d7b-47ad-80d4-cbf11b60becf",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-21 07:30:00",
+              "endDateTime": "2023-12-21 19:00:00"
+          },
+          {
+              "id": "520d5ec2-abf8-48cb-af9e-e1f0cb782531",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-15 19:00:00",
+              "endDateTime": "2023-12-16 00:00:00"
+          },
+          {
+              "id": "63b172f7-e149-4927-8aa6-cf4031f8c1da",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-22 19:00:00",
+              "endDateTime": "2023-12-23 00:00:00"
+          },
+          {
+              "id": "68ec59e7-5318-40e0-bf71-b9b75260b1d1",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-28 07:30:00",
+              "endDateTime": "2023-12-28 19:00:00"
+          },
+          {
+              "id": "6e29e611-5d36-4963-9c29-5ab4482e3a2e",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-30 00:00:00",
+              "endDateTime": "2023-12-30 07:30:00"
+          },
+          {
+              "id": "7b9f752a-ce19-44a2-9d27-b4fd8618888a",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-13 00:00:00",
+              "endDateTime": "2023-12-13 07:30:00"
+          },
+          {
+              "id": "7d9165dd-88df-4dec-bebb-9f9fe4f78a62",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-29 19:00:00",
+              "endDateTime": "2023-12-30 00:00:00"
+          },
+          {
+              "id": "8c9c874e-ca8e-4ca2-9e8c-7233e01385b9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-14 07:30:00",
+              "endDateTime": "2023-12-14 19:00:00"
+          },
+          {
+              "id": "a2c3a290-e80a-4836-9618-5d46fd362008",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-12 19:00:00",
+              "endDateTime": "2023-12-13 00:00:00"
+          },
+          {
+              "id": "a7d89e2d-0acb-4d6d-ad6a-de7ebad4ef8b",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-20 00:00:00",
+              "endDateTime": "2023-12-20 07:30:00"
+          },
+          {
+              "id": "be4b5ddc-c18d-4b35-bf76-5e32489921a9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-19 19:00:00",
+              "endDateTime": "2023-12-20 00:00:00"
+          },
+          {
+              "id": "ca86a99b-8d22-4600-baed-1c1526b14591",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-16 00:00:00",
+              "endDateTime": "2023-12-16 07:30:00"
+          },
+          {
+              "id": "e2b2afdf-78f9-4439-afb5-860e3ba86712",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-23 00:00:00",
+              "endDateTime": "2023-12-23 07:30:00"
+          },
+          {
+              "id": "faea6aa3-7e35-4294-9dfc-4a0031d8f53d",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-26 19:00:00",
+              "endDateTime": "2023-12-27 00:00:00"
+          }
+      ]
+  },
+  {
+      "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+      "shiftName": "MIDNIGHT SHIFT",
+      "teamId": 34,
+      "teamName": "RIGGER HU TEAM",
+      "teamType": "RIGGER_TEAM",
+      "personnelId": 9,
+      "personnelName": "Mate John",
+      "personnelType": "CREW",
+      "blocks": [
+          {
+              "id": "1914c42d-091a-4416-9f39-a6a271a83efc",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-27 00:00:00",
+              "endDateTime": "2023-12-27 07:30:00"
+          },
+          {
+              "id": "3b679534-4d7b-47ad-80d4-cbf11b60becf",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-21 07:30:00",
+              "endDateTime": "2023-12-21 19:00:00"
+          },
+          {
+              "id": "520d5ec2-abf8-48cb-af9e-e1f0cb782531",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-15 19:00:00",
+              "endDateTime": "2023-12-16 00:00:00"
+          },
+          {
+              "id": "63b172f7-e149-4927-8aa6-cf4031f8c1da",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-22 19:00:00",
+              "endDateTime": "2023-12-23 00:00:00"
+          },
+          {
+              "id": "68ec59e7-5318-40e0-bf71-b9b75260b1d1",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-28 07:30:00",
+              "endDateTime": "2023-12-28 19:00:00"
+          },
+          {
+              "id": "6e29e611-5d36-4963-9c29-5ab4482e3a2e",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-30 00:00:00",
+              "endDateTime": "2023-12-30 07:30:00"
+          },
+          {
+              "id": "7b9f752a-ce19-44a2-9d27-b4fd8618888a",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-13 00:00:00",
+              "endDateTime": "2023-12-13 07:30:00"
+          },
+          {
+              "id": "7d9165dd-88df-4dec-bebb-9f9fe4f78a62",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-29 19:00:00",
+              "endDateTime": "2023-12-30 00:00:00"
+          },
+          {
+              "id": "8c9c874e-ca8e-4ca2-9e8c-7233e01385b9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-14 07:30:00",
+              "endDateTime": "2023-12-14 19:00:00"
+          },
+          {
+              "id": "a2c3a290-e80a-4836-9618-5d46fd362008",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-12 19:00:00",
+              "endDateTime": "2023-12-13 00:00:00"
+          },
+          {
+              "id": "a7d89e2d-0acb-4d6d-ad6a-de7ebad4ef8b",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-20 00:00:00",
+              "endDateTime": "2023-12-20 07:30:00"
+          },
+          {
+              "id": "be4b5ddc-c18d-4b35-bf76-5e32489921a9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-19 19:00:00",
+              "endDateTime": "2023-12-20 00:00:00"
+          },
+          {
+              "id": "ca86a99b-8d22-4600-baed-1c1526b14591",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-16 00:00:00",
+              "endDateTime": "2023-12-16 07:30:00"
+          },
+          {
+              "id": "e2b2afdf-78f9-4439-afb5-860e3ba86712",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-23 00:00:00",
+              "endDateTime": "2023-12-23 07:30:00"
+          },
+          {
+              "id": "faea6aa3-7e35-4294-9dfc-4a0031d8f53d",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-26 19:00:00",
+              "endDateTime": "2023-12-27 00:00:00"
+          }
+      ]
+  },
+  {
+      "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+      "shiftName": "MIDNIGHT SHIFT",
+      "teamId": 41,
+      "teamName": "MOORING P TEAM",
+      "teamType": "MOORING_TEAM",
+      "personnelId": 15,
+      "personnelName": "C Mooring Crew 1",
+      "personnelType": "CREW",
+      "blocks": [
+          {
+              "id": "1914c42d-091a-4416-9f39-a6a271a83efc",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-27 00:00:00",
+              "endDateTime": "2023-12-27 07:30:00"
+          },
+          {
+              "id": "3b679534-4d7b-47ad-80d4-cbf11b60becf",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-21 07:30:00",
+              "endDateTime": "2023-12-21 19:00:00"
+          },
+          {
+              "id": "520d5ec2-abf8-48cb-af9e-e1f0cb782531",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-15 19:00:00",
+              "endDateTime": "2023-12-16 00:00:00"
+          },
+          {
+              "id": "63b172f7-e149-4927-8aa6-cf4031f8c1da",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-22 19:00:00",
+              "endDateTime": "2023-12-23 00:00:00"
+          },
+          {
+              "id": "68ec59e7-5318-40e0-bf71-b9b75260b1d1",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-28 07:30:00",
+              "endDateTime": "2023-12-28 19:00:00"
+          },
+          {
+              "id": "6e29e611-5d36-4963-9c29-5ab4482e3a2e",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-30 00:00:00",
+              "endDateTime": "2023-12-30 07:30:00"
+          },
+          {
+              "id": "7b9f752a-ce19-44a2-9d27-b4fd8618888a",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-13 00:00:00",
+              "endDateTime": "2023-12-13 07:30:00"
+          },
+          {
+              "id": "7d9165dd-88df-4dec-bebb-9f9fe4f78a62",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-29 19:00:00",
+              "endDateTime": "2023-12-30 00:00:00"
+          },
+          {
+              "id": "8c9c874e-ca8e-4ca2-9e8c-7233e01385b9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-14 07:30:00",
+              "endDateTime": "2023-12-14 19:00:00"
+          },
+          {
+              "id": "a2c3a290-e80a-4836-9618-5d46fd362008",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-12 19:00:00",
+              "endDateTime": "2023-12-13 00:00:00"
+          },
+          {
+              "id": "a7d89e2d-0acb-4d6d-ad6a-de7ebad4ef8b",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-20 00:00:00",
+              "endDateTime": "2023-12-20 07:30:00"
+          },
+          {
+              "id": "be4b5ddc-c18d-4b35-bf76-5e32489921a9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-19 19:00:00",
+              "endDateTime": "2023-12-20 00:00:00"
+          },
+          {
+              "id": "ca86a99b-8d22-4600-baed-1c1526b14591",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-16 00:00:00",
+              "endDateTime": "2023-12-16 07:30:00"
+          },
+          {
+              "id": "e2b2afdf-78f9-4439-afb5-860e3ba86712",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-23 00:00:00",
+              "endDateTime": "2023-12-23 07:30:00"
+          },
+          {
+              "id": "faea6aa3-7e35-4294-9dfc-4a0031d8f53d",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-26 19:00:00",
+              "endDateTime": "2023-12-27 00:00:00"
+          }
+      ]
+  },
+  {
+      "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+      "shiftName": "MIDNIGHT SHIFT",
+      "teamId": 41,
+      "teamName": "MOORING P TEAM",
+      "teamType": "MOORING_TEAM",
+      "personnelId": 16,
+      "personnelName": "FM Mooring Foreman",
+      "personnelType": "CREW",
+      "blocks": [
+          {
+              "id": "1914c42d-091a-4416-9f39-a6a271a83efc",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-27 00:00:00",
+              "endDateTime": "2023-12-27 07:30:00"
+          },
+          {
+              "id": "3b679534-4d7b-47ad-80d4-cbf11b60becf",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-21 07:30:00",
+              "endDateTime": "2023-12-21 19:00:00"
+          },
+          {
+              "id": "520d5ec2-abf8-48cb-af9e-e1f0cb782531",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-15 19:00:00",
+              "endDateTime": "2023-12-16 00:00:00"
+          },
+          {
+              "id": "63b172f7-e149-4927-8aa6-cf4031f8c1da",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-22 19:00:00",
+              "endDateTime": "2023-12-23 00:00:00"
+          },
+          {
+              "id": "68ec59e7-5318-40e0-bf71-b9b75260b1d1",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-28 07:30:00",
+              "endDateTime": "2023-12-28 19:00:00"
+          },
+          {
+              "id": "6e29e611-5d36-4963-9c29-5ab4482e3a2e",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-30 00:00:00",
+              "endDateTime": "2023-12-30 07:30:00"
+          },
+          {
+              "id": "7b9f752a-ce19-44a2-9d27-b4fd8618888a",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-13 00:00:00",
+              "endDateTime": "2023-12-13 07:30:00"
+          },
+          {
+              "id": "7d9165dd-88df-4dec-bebb-9f9fe4f78a62",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-29 19:00:00",
+              "endDateTime": "2023-12-30 00:00:00"
+          },
+          {
+              "id": "8c9c874e-ca8e-4ca2-9e8c-7233e01385b9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-14 07:30:00",
+              "endDateTime": "2023-12-14 19:00:00"
+          },
+          {
+              "id": "a2c3a290-e80a-4836-9618-5d46fd362008",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-12 19:00:00",
+              "endDateTime": "2023-12-13 00:00:00"
+          },
+          {
+              "id": "a7d89e2d-0acb-4d6d-ad6a-de7ebad4ef8b",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-20 00:00:00",
+              "endDateTime": "2023-12-20 07:30:00"
+          },
+          {
+              "id": "be4b5ddc-c18d-4b35-bf76-5e32489921a9",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-19 19:00:00",
+              "endDateTime": "2023-12-20 00:00:00"
+          },
+          {
+              "id": "ca86a99b-8d22-4600-baed-1c1526b14591",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-16 00:00:00",
+              "endDateTime": "2023-12-16 07:30:00"
+          },
+          {
+              "id": "e2b2afdf-78f9-4439-afb5-860e3ba86712",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-23 00:00:00",
+              "endDateTime": "2023-12-23 07:30:00"
+          },
+          {
+              "id": "faea6aa3-7e35-4294-9dfc-4a0031d8f53d",
+              "shiftId": "0504a435-a117-4c78-9f30-d2e8fac791db",
+              "startDateTime": "2023-12-26 19:00:00",
+              "endDateTime": "2023-12-27 00:00:00"
+          }
+      ]
+  }
+]

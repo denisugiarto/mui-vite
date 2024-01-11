@@ -1,7 +1,8 @@
 import { Grid, Tab } from '@mui/material';
 import Calendar from './components/Calendar';
 import CrewList from './CrewList';
-import FakeData from './NonAvailibility.json';
+// import FakeData from './NonAvailibility.json';
+import FakeData from './dataCalendar.json';
 import ErrorBoundary from '../../components/ErrorBoundary';
 
 const ErrorBoundary2 = ({ children }) => {
@@ -22,7 +23,7 @@ const NonAvailability = () => {
 						<CrewList />
 					</Grid>
 					<Grid item xs={8}>
-						<Calendar NonAvailability={FakeData} />
+						<Calendar data={FakeData} />
 					</Grid>
 				</Grid>
 			</ErrorBoundary>
