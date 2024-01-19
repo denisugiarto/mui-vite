@@ -7,6 +7,9 @@ const Header = () => {
 			<Link to="/" style={{ padding: 5 }}>
 				Home
 			</Link>
+			<Link to="/date-validation" style={{ padding: 5 }}>
+				Date Validation
+			</Link>
 			<Link to="/min-notice" style={{ padding: 5 }}>
 				Minimum Notice
 			</Link>

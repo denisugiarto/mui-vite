@@ -8,6 +8,7 @@ import Loading from './pages/Loading';
 import TesRender from './pages/TesRender';
 import FilePreview from './pages/FilePreview';
 import MinimumNotice from './pages/MinimumNotice';
+import DateValidation from './pages/DateValidation';
 // import Calendar from './pages/Calendar/Calendar';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
 				<Route path="/tes" element={<TesRender />} />
 				<Route path="/file-preview" element={<FilePreview />} />
 				<Route path="/min-notice" element={<MinimumNotice />} />
+				<Route path="/date-validation" element={<DateValidation />} />
 				<Route path="*" element={<Pages404 />} />
 			</Routes>
 		</Router>
