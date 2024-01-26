@@ -44,7 +44,6 @@ export default function MinimumNotice() {
 		setselectedMinNotice(minNoticeByReason);
 	}, [locationList.current, fromId]);
 
-	//add new
 	return (
 		<div>
 			<h3>Minimum Notice</h3>
