@@ -1,5 +1,6 @@
 import { Button, Input, Typography, styled } from "@mui/material";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useFormContext } from "react-hook-form";
 import * as XLSX from "xlsx";
 
 const Step1 = () => {
@@ -15,9 +16,8 @@ const Step1 = () => {
     width: 1,
   });
   const [file, setFile] = useState(null);
-  const [jsonData, setJsonData] = useState([{}]);
-  const [labelList, setLabelList] = useState([]);
 
+  const { setValue } = useFormContext({ mode: "onTouched" });
   const handleConvert = () => {
     if (file) {
       const reader = new FileReader();
@@ -30,12 +30,17 @@ const Step1 = () => {
         const allLabel = Object.keys(json[0]).map((label) => {
           return { label: label, value: label.replaceAll(" ", "") };
         });
-        setJsonData(json);
-        setLabelList(allLabel);
+        setValue("data", json);
+        setValue("label", allLabel);
       };
       reader.readAsBinaryString(file);
     }
   };
+
+  useEffect(() => {
+    console.log(file);
+    handleConvert();
+  }, [file]);
   return (
     <div>
       <Typography variant="h6">INSTRUCTIONS:</Typography>
@@ -45,7 +50,11 @@ const Step1 = () => {
       </p>
       <Button component="label" variant="contained" tabIndex={-1}>
         Choose File
-        <VisuallyHiddenInput type="file" accept=".xls,.xlsx" />
+        <VisuallyHiddenInput
+          type="file"
+          accept=".xls,.xlsx"
+          onChange={(e) => setFile(e.target.files[0])}
+        />
       </Button>
     </div>
   );
