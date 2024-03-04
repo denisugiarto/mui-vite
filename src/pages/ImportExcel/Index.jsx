@@ -90,12 +90,7 @@ export default function ImportExcelPage() {
     />
   );
   const methods = useForm();
-  const {
-    handleSubmit,
-    setValue,
-    getValues,
-    formState: { errors },
-  } = methods;
+  const { getValues } = methods;
 
   return (
     <FormProvider {...methods}>
@@ -231,6 +226,8 @@ export default function ImportExcelPage() {
             </Box>
           </React.Fragment>
         )}
+        <h1>All Data</h1>
+        <pre>{JSON.stringify(getValues(), null, 2)}</pre>
       </Box>
     </FormProvider>
   );
