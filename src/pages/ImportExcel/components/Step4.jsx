@@ -1,7 +1,11 @@
 import { Typography } from "@mui/material";
 import React from "react";
+import { useFormContext } from "react-hook-form";
 
 const Step4 = () => {
+  const { getValues } = useFormContext();
+  const submitData = getValues("submitData");
+  console.log("🚀 ~ Step4 ~ submitData:", submitData);
   return (
     <>
       <Typography variant="h6">Summary:</Typography>

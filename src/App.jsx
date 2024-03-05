@@ -11,6 +11,7 @@ import NonAvailability from "./pages/NonAvailability";
 import Pages404 from "./pages/Pages404";
 import TesRender from "./pages/TesRender";
 import ImportExcel from "./pages/ImportExcel";
+import Test from "./pages/test";
 // import Calendar from './pages/Calendar/Calendar';
 
 const App = () => {

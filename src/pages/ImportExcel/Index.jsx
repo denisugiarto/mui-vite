@@ -13,6 +13,7 @@ import {
   Typography,
 } from "@mui/material";
 import { FormProvider, useForm } from "react-hook-form";
+import NestedInput from "./components/NestedInput";
 
 const steps = ["UPLOAD FILE", "MAPPING-DATA", "PREVIEW", "RESULT"];
 
