@@ -21,6 +21,9 @@ export function calculateDurationOffShift({
   const curDate = dayjs(currentDate);
 
   if (mode === "week") {
+    console.log("🚀 ~ startDate:", startDate.format("YYYY-MM-DD HH:mm:ss"));
+    console.log("🚀 ~ endDate:", endDate.format("YYYY-MM-DD HH:mm:ss"));
+    console.log("🚀 ~ curDate:", curDate.format("YYYY-MM-DD HH:mm:ss"));
     //reset the start date and end date to 00:00:00 because we need to calculate the difference by day
     const newStartDate = startDate
       .set("hour", 0)

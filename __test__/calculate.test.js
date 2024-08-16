@@ -87,9 +87,9 @@ test("WEEK: current date is equal to end date time", () => {
 });
 
 test("WEEK: start date outside week", () => {
-  const startDate = "2024-08-10 00:00:00";
-  const endDate = "2024-08-11 23:59:59";
-  const currentDate = "2024-08-11 00:00:00";
+  const startDate = "2024-07-30 00:00:00";
+  const endDate = "2024-08-09 23:59:59";
+  const currentDate = "2024-08-4 00:00:00";
   expect(
     calculateDurationOffShift({
       startTime: startDate,
@@ -97,7 +97,7 @@ test("WEEK: start date outside week", () => {
       currentDate: currentDate,
       mode: "week",
     })
-  ).toBe(1);
+  ).toBe(6);
 });
 
 test("WEEK: current date outside start date and end date", () => {
